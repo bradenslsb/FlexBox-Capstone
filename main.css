@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+.nav {
+    background-color: grey;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1em;
+    padding-right: 1em;
+
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+
+}
+.nav-left img {
+    height: 3em;
+}
+.links {
+    text-decoration: none;
+    padding: 4px;
+    color: #03a1fc;
+    
+}
+.links:hover {
+    background-color: white;
+    
+}
+
+@media(max-width: 48em) {
+    .nav {
+        height: 4em;
+    }
+    .links {
+        
+    }
+}
